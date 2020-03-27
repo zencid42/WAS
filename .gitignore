@@ -1,10 +1,9 @@
 # contrast mapped folder #
-/contrast/*.yaml
-/contrast/*.jar
-/contrast/cache/
+/contrast/*
+
 # WAS mapped folders
-/logs/*.yaml
-/tmp/*.jar
+/logs/*
+/tmp/*
 
 # Compiled source #
 ###################
