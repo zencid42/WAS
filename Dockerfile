@@ -3,8 +3,8 @@ USER root
 
 RUN alias ll="ls -l"
 
-COPY --chown=was:root EnterpriseHelloWorld.ear /work/app/
-COPY --chown=was:root welcome.war /work/app/
+#COPY --chown=was:root EnterpriseHelloWorld.ear /work/app/
+#COPY --chown=was:root welcome.war /work/app/
 
 USER was
 
