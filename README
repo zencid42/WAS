@@ -1,7 +1,24 @@
+Instructions:
 
+1. Pull down the repo
+2. Drop your contrast.jar and contrast_security.yaml file into the /contrast folder
+3. run: docker-compose up -build
 
+The following folders are mapped:
+/contrast/ 
+All contrast logs will be written locally to this folder
 
+/deploy/
+Drop new war/ear files to auto deploy to websphere
+Likely will get deployed to /root/
+http://localhost:9080/
 
+/logs/
+All websphere logs are written locally instead of container
+(just for ease of troubleshooting)
+
+/tmp/
+Containers /tmp/ folder written locally.  Easy access to default PASSWORD
 
 
 # Acess site: https://localhost:9043/ibm/console/login.do?action=secure

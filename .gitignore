@@ -4,6 +4,7 @@
 # WAS mapped folders
 /logs/*
 /tmp/*
+/deployable_wars/*
 
 # Compiled source #
 ###################
